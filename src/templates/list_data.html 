@@ -1,0 +1,15 @@
+
+<html>
+<title>
+ABS_IMMIGRATION
+</title>
+<body>
+{% for e in obj %}
+    <p>{{e.region}}-{{e.gender}}-{{e.migration_type}}</p>
+    <p>----------------------------------------------------</p>
+    <br/>
+{% endfor %}
+
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>ABS Home page</title>
+</head>
+<body>
+    {% block content %}
+    replace
+    {% endblock %}
+</body>
+</html>

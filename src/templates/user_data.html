@@ -1,0 +1,15 @@
+{% extends 'base.html ' %}
+ {% block content %}
+<html>
+<title>
+
+<h1>{{obj.title}}</h1>
+
+</title>
+<form method="POST"> {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Press to enter">
+</form>
+</html>
+
+ {% endblock %}

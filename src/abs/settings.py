@@ -9,7 +9,9 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-
+#Heroku settings
+import django_heroku
+django_heroku.settings(locals())
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
